@@ -4,6 +4,13 @@ public:
         int n = nums.size();
         int ans = 0;
         for (int i = 0; i < n; ++i) {
+
+            /*
+            An integer val is on one of the diagonals of nums if there exists an integer 
+            i for which nums[i][i] = val or 
+            an i for which nums[i][nums.length - i - 1] = val.
+            */
+            
             if (isPrime(nums[i][i])) {
                 ans = max(ans, nums[i][i]);
             }
