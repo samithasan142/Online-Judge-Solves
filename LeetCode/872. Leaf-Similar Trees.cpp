@@ -1,12 +1,14 @@
+/*
+    #include<bits/stdc++.h>
+    using namespace std;
+*/
+
 /**
- * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 
@@ -48,3 +50,35 @@ public:
         return true;
     }
 };
+
+/*
+    int main() {
+    // Create the first binary tree
+    TreeNode* root1 = new TreeNode(1);
+    root1->left = new TreeNode(2);
+    root1->right = new TreeNode(3);
+    root1->left->left = new TreeNode(4);
+    root1->left->right = new TreeNode(5);
+
+    // Create the second binary tree
+    TreeNode* root2 = new TreeNode(1);
+    root2->left = new TreeNode(2);
+    root2->right = new TreeNode(3);
+    root2->left->left = new TreeNode(4);
+    root2->left->right = new TreeNode(5);
+
+    Solution solution;
+
+    // Check if the leaf nodes are similar
+    bool isSimilar = solution.leafSimilar(root1, root2);
+
+    if (isSimilar) {
+        cout << "The leaf nodes of the trees are similar." << endl;
+    } else {
+        cout << "The leaf nodes of the trees are not similar." << endl;
+    }
+
+    return 0;
+}
+
+*/
