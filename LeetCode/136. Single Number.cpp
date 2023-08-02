@@ -1,3 +1,8 @@
+/*
+#include<bits/stdc++.h>
+using namespace std;
+*/
+
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -8,7 +13,18 @@ public:
         return result;
     }
 };
-            /*
+
+/*
+int main() {
+    Solution sol;
+    vector<int> nums = {4,1,2,1,2};
+    int single = sol.singleNumber(nums);
+    cout << "The single number is: " << single << endl;
+    return 0;
+}
+*/
+
+/*
             	XOR Gate
             	A^A=0
             	A^B^A=B
@@ -21,4 +37,4 @@ public:
             	array: 1 2 1 2 3 2 => 1^1 = 0 and 2^2^2 = 0 => 0 0 3 => 3
 
             	so, result is 3.
-            */
+*/
