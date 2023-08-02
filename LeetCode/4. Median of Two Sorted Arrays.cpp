@@ -1,3 +1,8 @@
+/*
+#include<bits/stdc++.h>
+using namespace std;
+*/
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -16,3 +21,14 @@ public:
         }
     }
 };
+
+/*
+int main() {
+    Solution sol;
+    vector<int> nums1 = {1, 2};
+    vector<int> nums2 = {3, 4};
+    double median = sol.findMedianSortedArrays(nums1, nums2);
+    cout << "Median: " << median << endl;
+    return 0;
+}
+*/
