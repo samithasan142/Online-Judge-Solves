@@ -1,3 +1,8 @@
+/*
+#include<bits/stdc++.h>
+using namespace std;
+*/
+
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -13,3 +18,13 @@ public:
         return 0;
     }
 };
+
+/*
+int main() {
+    Solution sol;
+    vector<int> nums = {0,1,0,1,0,1,99};
+    int single = sol.singleNumber(nums);
+    cout << "The single number is: " << single << endl;
+    return 0;
+}
+*/
